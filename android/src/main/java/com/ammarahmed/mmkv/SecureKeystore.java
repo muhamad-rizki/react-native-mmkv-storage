@@ -7,7 +7,7 @@ import android.os.Build;
 import android.security.KeyPairGeneratorSpec;
 import android.util.Log;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
