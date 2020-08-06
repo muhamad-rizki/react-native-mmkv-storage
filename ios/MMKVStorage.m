@@ -57,7 +57,7 @@ RCT_EXPORT_MODULE()
 
 + (BOOL)requiresMainQueueSetup
 {
-    return NO;
+    return YES;
 }
 
 #pragma mark setupWithEncryption
@@ -543,5 +543,4 @@ RCT_EXPORT_METHOD(removeSecureKey:(NSString *)key
 }
 
 @end
-
 
